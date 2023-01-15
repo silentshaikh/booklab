@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+
+}
+
+.nav-br {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    /* background-color: b; */
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    padding: 0 50px;
+
+}
+
+.logo img {
+
+    width: 28%;
+
+    border: 3px solid white;
+    border-radius: 100px;
+
+}
+
+
+.li-list {
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+.li-list li {
+
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.li-list li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.li-list li a:hover {
+    color: gray;
+}
+
+.search-bar {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.search-bar input {
+    /* padding: 10px 20px; */
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+
+
+    /* margin: 0 30px; */
+
+
+}
+
+.btn-sm {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: azure;
+    cursor: pointer;
+    margin-left: 5px;
+
+
+
+}
+
+.btn-sm:hover {
+    background-color: #3e8e41;
+}
+
+.btn-sm:active {
+    background-color: #3e8e41;
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url("./img/pexels-photo-3069345.jpeg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.first-section {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    height: 80%;
+}
+
+.text-big {
+    color: azure;
+    font-size: 35px;
+
+}
+
+.text-big:hover {
+    text-decoration: underline;
+
+}
+
+.text-small {
+    color: azure;
+    margin-top: 5px;
+}
+
+.second-half img {
+    width: 200px;
+    margin-left: 50px;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+
+.btn-box-main1 {
+    padding: 8px 10px;
+    margin-top: 13px;
+    margin-left: 5px;
+    border: 2px solid white;
+    background: none;
+    color: azure;
+    cursor: pointer;
+}
+
+.btn-box-main2 {
+    padding: 8px 10px;
+    margin-top: 13px;
+    margin-left: 5px;
+    border: 2px solid white;
+    background: none;
+    color: azure;
+    cursor: pointer;
+}
+
+.btn-box-main1:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-box-main2:hover {
+    background-color: black;
+    color: white;
+}
+
+.sec-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+
+}
+
+.tag-small {
+    margin-top: 15px;
+}
+
+.sec-half img {
+    height: 250px;
+    margin: 40px;
+
+    border-radius: 10px;
+
+}
+
+.sec-left {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+
+}
+
+hr {
+    background-color: #4CAF50;
+    height: 2vh;
+    width: 9vw;
+    margin-left: 600px;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 8px;
+    cursor: pointer;
+}
+
+.lines {
+    width: 40px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width:1098px) {
+    .nav-br {
+        flex-direction: column;
+        height: 447px;
+        transition: all 0.7s ease-out;
+        
+    }
+    .h-nav{
+        height: 60px;
+        
+    }
+    .h-img{
+        opacity: 0;
+    }
+    
+    .li-list {
+        flex-direction: column;
+        
+        
+        
+
+    }
+
+    .search-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #search {
+        width: 100%;
+        
+    }
+    .btn-sm {
+        margin-top: 10px;
+        
+    }
+    .burger{
+        display: block;
+    }
+    .v-class{
+        
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+        
+    }
+  
+    .sec-section{
+        flex-direction: column-reverse;
+    }
+    .sec-left{
+        flex-direction: column-reverse;
+    }
+
+
+
+
+
+
+
+}
