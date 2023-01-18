@@ -112,7 +112,7 @@ header {
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.7) url("./img/pexels-photo-3069345.jpeg");
+    background: rgba(0, 0, 0, 0.7) url("./pexels-photo-3069345.jpeg");
     background-size: cover;
     background-blend-mode: darken;
 }
